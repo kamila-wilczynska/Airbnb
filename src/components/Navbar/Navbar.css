@@ -1,0 +1,19 @@
+.logo-img{
+	
+	max-width: 100px;
+	height: 5rem;
+	
+}
+
+.navigation{
+	
+		height: 70px;
+		display: flex;
+		/* background-color: blue; */
+		padding: 20px 40px;
+		box-shadow: 10px 5px 5px gray;
+}
+
+section{
+	padding: 20px;
+}
