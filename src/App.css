@@ -14,10 +14,21 @@ h1{
 
 
 
+
 .cards-list {
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    overflow-x: auto;
-
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Set the container height to the full viewport height */
+	flex-direction: column;
+	background-color: rgb(245, 239, 233);
 }
+
+
+@media only screen and (min-width: 900px) {
+	.cards-list {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	
+	}
+   }
