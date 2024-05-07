@@ -12,6 +12,8 @@ h1{
 	font-size: 40px;
 }
 
+
+
 .cards-list {
     display: flex;
     flex-wrap: nowrap;
