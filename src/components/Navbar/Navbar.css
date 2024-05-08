@@ -27,7 +27,7 @@ section{
 
 .activeLink {
   color: rgb(0, 255, 128);
-  
+  font-weight: bold; 
 }
 
 .inactiveLink {
@@ -42,3 +42,29 @@ section{
 	padding: 20px;
 	font-size: 1.2rem;
   }
+  
+@media only screen and (max-width: 800px) {
+	.navigation{
+	
+		display: flex;
+		flex-direction: column;
+		height: 30%;
+		align-items: center; 
+}
+.nav-links {
+    display: flex;
+    gap: 20px; /* Opcjonalnie, aby dodać odstępy między linkami */
+}
+
+.a {
+    /* Twoje style dla linków */
+    text-decoration: none; /* Usunięcie podkreślenia */
+    color: #333; /* Kolor tekstu */
+    transition: color 0.3s ease; /* Płynna zmiana koloru tekstu */
+}
+
+a:hover{
+	color: #f00;
+
+}
+   }
