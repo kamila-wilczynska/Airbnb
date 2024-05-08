@@ -2,7 +2,7 @@
 	
 	max-width: 100px;
 	height: 5rem;
-	
+	margin-right: auto;
 }
 
 .navigation{
@@ -40,4 +40,5 @@ section{
 
   a{
 	padding: 20px;
+	font-size: 1.2rem;
   }

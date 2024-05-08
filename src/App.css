@@ -18,7 +18,7 @@ h1{
 .cards-list {
     display: flex;
     align-items: center; /* Center vertically */
-    height: 100vh; /* Set the container height to the full viewport height */
+    
 	flex-direction: column;
 	background-color: rgb(245, 239, 233);
 }
