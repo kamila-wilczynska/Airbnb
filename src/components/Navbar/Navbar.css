@@ -12,8 +12,32 @@
 		/* background-color: blue; */
 		padding: 20px 40px;
 		box-shadow: 10px 5px 5px gray;
+		display: flex;
 }
 
 section{
 	padding: 20px;
 }
+
+.activeLink,
+.inactiveLink {
+  padding: 0 2rem;
+  
+}
+
+.activeLink {
+  color: rgb(0, 255, 128);
+  
+}
+
+.inactiveLink {
+	color: #666;
+}
+
+.links {
+	display: flex;
+  }
+
+  a{
+	padding: 20px;
+  }

@@ -24,7 +24,8 @@
     flex-direction: column; 
 	padding: 30px ;
 	background-color:rgb(243, 218, 218);
-	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	position: relative;
 }
 
 
@@ -55,3 +56,14 @@
 		border-radius: 9px;
 	}
    }
+
+   .card--badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 13px 9px;
+    border-radius: 2px;
+    font-weight: bold;
+	z-index: 2;;
+}

@@ -1,4 +1,4 @@
- const data = [
+const data = [
 	{
 		id: 1,
 		title: "Life Lessons with Katie Zaferes",
@@ -36,7 +36,7 @@
 			reviewCount: 2
 		},
 		location: "Norway",
-		openSpots: 3,
+		openSpots: 5,
 	}
 ]
 
