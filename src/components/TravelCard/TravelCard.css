@@ -1,10 +1,18 @@
 .travel--card{
-	width: 450px;
-	height: 50%;
+	width: 40%;
+	height: 35%;
 	background-color:gainsboro;
 	padding: 30px;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+@media only screen and (max-width: 800px) {
+	.travel--card{
+		width: 80%;
+		height: 50%;
+		
+	}
+   }
 
 .travel--card--image{
 	width: 100%;

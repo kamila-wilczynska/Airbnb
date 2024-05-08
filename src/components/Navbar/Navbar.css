@@ -41,7 +41,14 @@ section{
   a{
 	padding: 20px;
 	font-size: 1.2rem;
+	text-decoration: none;
+	font-weight: bold;
   }
+
+  a:hover{
+	color: #f00;
+
+}
   
 @media only screen and (max-width: 800px) {
 	.navigation{
@@ -63,8 +70,5 @@ section{
     transition: color 0.3s ease; /* Płynna zmiana koloru tekstu */
 }
 
-a:hover{
-	color: #f00;
 
-}
    }
