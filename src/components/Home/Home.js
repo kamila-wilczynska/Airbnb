@@ -1,7 +1,5 @@
 import React from 'react';
-
 import Card from '../Card/Card'
-
 import data from '../../data'
 import Hero from '../Hero/Hero'
 
