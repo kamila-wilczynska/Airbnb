@@ -7,6 +7,7 @@ import travelData from "../../traveldata";
 
 
 
+
 export default function Travel() {
 
 	const [currentIndex, setCurrentIndex] = useState(0);

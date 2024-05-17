@@ -2,6 +2,7 @@ import React from 'react';
 import Card from '../Card/Card'
 import data from '../../data'
 import Hero from '../Hero/Hero'
+import Counter from "../../features/counter/Counter"
 
 
 
@@ -19,10 +20,11 @@ function Home() {
 
 	return (
 		<>
-		<Hero />
-		<section className="cards-list">
-			{cards}
-		</section>
+			<Hero />
+			<section className="cards-list">
+				{cards}
+			</section>
+			<Counter />
 		</>
 	);
 }
