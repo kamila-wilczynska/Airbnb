@@ -21,6 +21,8 @@ h1{
     
 	flex-direction: column;
 	background-color: rgb(245, 239, 233);
+	padding-bottom: 3rem;;
+	padding-top: 3rem;
 }
 
 
