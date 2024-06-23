@@ -1,11 +1,11 @@
 # Aribnb playgroung to experiment with React
 
-This is an experimental playground for React app where:
-Card Component: Displays travel-related information with badges, images, and various details based on the current data.
-Home Component: Aggregates multiple Card components and includes additional features like Hero and Counter.
-Travel Component: Manages a travel inspiration slider that dynamically updates based on user interaction.
-TravelCard Component: Displays detailed information about each travel destination.
-Counter Component: Allows users to set and track their travel goals, with state managed by Redux.
+This is an experimental playground for React app where:  
+Card Component: Displays travel-related information with badges, images, and various details based on the current data.  
+Home Component: Aggregates multiple Card components and includes additional features like Hero and Counter.  
+Travel Component: Manages a travel inspiration slider that dynamically updates based on user interaction.  
+TravelCard Component: Displays detailed information about each travel destination.  
+Counter Component: Allows users to set and track their travel goals, with state managed by Redux.  
 
 ### Experience cards
 Card Component
